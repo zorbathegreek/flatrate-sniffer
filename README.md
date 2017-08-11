@@ -5,4 +5,4 @@ analyses your internet package consumption, gives you feedback ...
 
 ifconfig |  grep RX | tail -2 | head -1 | sed 's/RX\ packets\ [[:digit:]]\+\ \ bytes//' | sed s/[[:punct:]][[:digit:]]\\+[[:punct:]][[:digit:]]\ MiB[[:punct:]]//
 
-For more dtails, see the Wiki.
+For more details, see the Wiki.
